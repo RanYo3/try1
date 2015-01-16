@@ -204,5 +204,6 @@ void Cran2Dlg::OnCbnSelchangeCombo2()
 
 HBRUSH Cran2Dlg::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
 {
+	// return the color of the brush to change window background color
 	return m_background;
 }
